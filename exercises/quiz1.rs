@@ -13,10 +13,11 @@
 //
 // No hints this time ;)
 
-// I AM NOT DONE
-
 // Put your function here!
-// fn calculate_price_of_apples {
+fn calculate_price_of_apples(n: u32) -> u32 {
+    let price = if n > 40 { n } else { n * 2 };
+    price
+}
 
 // Don't modify this function!
 #[test]
